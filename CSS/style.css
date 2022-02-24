@@ -1,0 +1,99 @@
+/* Loginpage css */
+/* #background{
+    background-image: url('../images/todobg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#loginbutton{
+  background-color: #201f1e;
+  border: none;
+  color: rgb(218, 198, 198);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+}
+#heading{
+  text-align: center;
+  color: #96a00f ;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+/* todolist css */
+.nav{
+  background-color: #7e3232;
+  height: 10%;
+}
+#todolist{
+  margin-top:8%;
+}
+#nav-item-todo{
+  color: white;
+  margin: 10px; 
+  border: 2px solid white;
+  margin-left: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #23a18c;
+
+}
+#nav-item-logout{
+  color: white;
+  margin: 10px; 
+  border: 2px solid white;
+  margin-left: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+.hov:hover{
+  background-color: #1bbeb6;
+
+}
+
+.content{
+  position: relative;
+  bottom: 0;
+  background: #0a0a0a;
+}
+.display-4{
+  color: #f0ad4e; 
+  margin-top: 5%;
+  margin-left: 60%;
+  width: 30%;
+  position: fixed;
+
+}
+#lead{
+  
+  color: #f0ad4e; 
+  margin-top: 12%;
+  margin-left: 60%;
+  width: 30%;
+  position: fixed;
+}
+.disabled{
+  pointer-events: none;
+  color: #cec8c5; 
+}
+.active{
+  
+  color: white;
+  font-weight: bold;
+  margin-left: 2%;
+}
+.checkedbox{
+  color: #cec8c5;
+  margin-left: 2%;
+
+}
+
+
+
